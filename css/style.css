@@ -1,0 +1,31 @@
+body {
+    background-image: url(https://wallpaperstock.net/summer-night%2C-nature-wallpapers_55861_1920x1200.jpg);
+    background-size: cover;
+    text-align: center;
+    padding: 5%;
+
+}
+h1 {
+    color: rgba(123, 212, 34, 0.781);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20;
+    background-color: rgba(139, 28, 0, 0.678); 
+}
+
+form {
+    color: rgba(0, 0, 0, 0.808);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 150%;
+    background-color: rgba(2, 23, 70, 0.609);
+
+}
+
+button {
+    color: rgba(192, 192, 192, 0.733);
+    background-color: rgba(144, 37, 37, 0.692);
+    width: 80px;
+    margin-top: 2px;
+    height: 30px;
+    border-radius: 35px;
+    color: #000000;
+}
