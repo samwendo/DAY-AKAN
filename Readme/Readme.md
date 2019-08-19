@@ -3,7 +3,6 @@ Akan name generator
 
 AUTHOR
 Sam wendo
-
 0700082835
 
 PROJECT DESCRIPTION
