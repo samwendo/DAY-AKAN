@@ -1,9 +1,10 @@
 body {
-    background-image: url(https://wallpaperstock.net/summer-night%2C-nature-wallpapers_55861_1920x1200.jpg);
-    background-size: cover;
+    background-image: url(https://c.wallhere.com/photos/60/de/seasons_spring_summer_winter-178233.jpg!d);
+    background-size:contain;
     text-align: center;
-    padding: 5%;
+    padding: 15%;
 
+    
 }
 h1 {
     color: rgba(123, 212, 34, 0.781);
@@ -12,6 +13,12 @@ h1 {
     padding: 20;
     background-color: rgba(139, 28, 0, 0.678); 
 }
+.love h2{
+    font-size: 100%;
+
+}
+
+
 
 form {
     color: rgba(212, 173, 0, 0.692);
