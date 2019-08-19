@@ -31,3 +31,6 @@ button {
     border-radius: 35px;
     color: #000000;
 }
+ul {
+    list-style-type: none;
+}
