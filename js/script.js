@@ -14,3 +14,4 @@ alert("input the correct gender");
 return false;
 } else if (month === "")
 
+
