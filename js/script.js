@@ -10,6 +10,7 @@ days[4] = "Wednesday"
 days[5] = "Thursday"
 days[6] = "Friday"
 
+
 Male = new MakeArray(7)
 Male[0] = "Kwame"
 Male[1] = "Kwasi"
@@ -30,9 +31,11 @@ Female[6] = "Afua"
 
 function compute(form) {
     var val1 = parseInt(form.date.value)
+    
     if ((val1< 0) || (val1 > 31)) {
         alert("day invalid")
     }
+
     var val2 = parseInt(form.month.value)
     if ((val2 < 0) || (val2 > 12)) {
         alert("Month invalid")
