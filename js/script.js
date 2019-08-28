@@ -31,28 +31,30 @@ Female[6] = "Afua"
 function compute(form) {
     var val1 = parseInt(form.date.value)
     if ((val1< 0) || (val1 > 31)) {
-        alert("day invalied")
+        alert("day invalid")
     }
     var val2 = parseInt(form.month.value)
     if ((val2 < 0) || (val2 > 12)) {
-        alert("Month invalided")
+        alert("Month invalid")
     }
     var val2x = parseInt(form.month.value)
     var val3 = parseInt(form.year.value)
     if (val3 < 1900) {
         alert("SORRY")
     }
-    var val4 = parseInt(((val2 + 1) * 3) / 5)
+    var val4 = parseInt(((val2x + 1) * 3) / 5)
     var val5 = parseInt(val3 / 4, 10)
     var val6 = parseInt(val3 / 100, 10)
     var val7 = parseInt(val3 / 400, 10)
-    var val8 = val1 + (val2x * 2) + val4 + val3 + val5 - val6 + val7 + val8 + val9
+    var val8 = val1 + (val2x * 2) + val4 + val3 + val5 - val6 + val7 + 2
     var val9 = parseInt(val8 / 7, 10)
-    var val0 = val8 - (val9 + 7)
+    var val0 = val8 - (val9 * 7)
     form.result2.value = days[val0]
-if ( document.getElementById("m1").checked){
+if ( document.getElementById("m1").checked) {
     form.result3.value =  Male[val0]
 } else if (document.getElementById("m2").checked){
-    form.result3.value = Female[vale]
+    form.result3.value = Female[val0]
 }
+
+
 }
